@@ -1,0 +1,132 @@
+
+.thumbnail{
+	width:  20em;
+	height: 23em;
+
+}
+.projectsPics{
+	width:  19em;
+	height: 15em;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+#img1{
+	background-image: url(../images/OilCol.jpg);
+	background-size: contain;
+}
+#img2{
+	background-image: url(../images/port.jpg );
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#img3{
+	background-image: url(../images/corals.jpg );
+	background-position: cover;
+}
+#img4{
+	background-image: url(../images/politics.jpg);
+	background-size: cover;
+}
+#img5{
+	background-image: url(../images/incognito5.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#img6{
+	background-image: url(../images/incognito6.png);
+	background-position: cover;
+}
+
+.btnDefaultContainer{
+	background-position: center center;
+}
+.btnDefaultP{
+	position: relative;
+	left: 33%;
+}
+.proyectTitle{
+	text-align: center;
+}
+#mainTitle{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-size: 100%;
+	text-decoration: underline;
+}
+.boxBut {
+  text-align: center;
+}
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+/** POP UP*/
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+
+}
+
+/* The Close Button */
+#close1,
+#close2,
+#close3,
+#close4,
+#close5,
+#close6 {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#close1:hover,
+#close2:hover,
+#close3:hover,
+#close4:hover,
+#close5:hover,
+#close6:hover,
+#close1:focus,
+#close2:focus,
+#close3:focus,
+#close4:focus,
+#close5:focus,
+#close6:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.caption > p  {
+    text-align: justify;
+    font-size: 300%;
+}

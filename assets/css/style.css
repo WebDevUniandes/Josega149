@@ -1,0 +1,98 @@
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #161616;
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    /**text-transform: uppercase;*/
+}
+img{
+    width: 100%;
+}
+a,p {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    transition: all 0.2s;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+
+.section-title {
+    color: #333;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+
+.footer-area {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.footer-area p {
+    margin: 0;
+}

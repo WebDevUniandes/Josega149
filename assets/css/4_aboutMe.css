@@ -1,0 +1,75 @@
+
+#imageContainer{
+    text-align: center;
+    border-style: solid;
+    box-sizing: border-box;
+    background-image: url(../images/me1.JPG);
+    background-size: cover;
+    width: 25em;
+    height: 38.38em;
+}
+
+.about-me-area {
+    background: #fff;
+}
+
+.about-me-text p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.about-me-text p {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+a.about-button {
+    display: inline-block;
+    padding: 10px;
+    background: #334;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    -webkit-transition: .4s;
+    transition: .4s;
+      cursor: pointer;
+}
+a.about-button:hover {
+  background: #06D85F;
+  color:black;
+}
+
+#rowOfAboutMeContent,#rowOfAboutMeContentSmall{
+    /*order-style: solid;*/
+}
+
+
+#firstP, #secondP{
+
+    display: block;
+}
+
+
+
+@media only screen and (max-device-width: 480px)
+{
+    #imageContainer{
+    text-align: center;
+    border-style: solid;
+    box-sizing: border-box;
+    background-image: url(../images/me1LowR.jpg);
+    background-size: cover;
+    width: 25em;
+    height: 38.38em;
+}
+    
+
+}
+
